@@ -1,3 +1,10 @@
+This is one of the practice projects I created while learning Node.js, Express.js, and mongoDB. Here a user can login/register and create, read, update and delete his jobs. 
+
+There is no front end for this app, we can use Postman to use/check the application.
+
+I created this by watching the "Node.js / Express Course - Build 4 Projects (by John Smelga)" video on freeCodeCamp.org youtube channel.
+
+
 #### Setup
 
 ```bash
