@@ -2,9 +2,9 @@ require("dotenv").config();
 require("express-async-errors");
 
 //extra security packages
-const cors = require("cors");
-const helmet = require("helmet");
-const xss = require("xss-clean");
+// const cors = require("cors");
+// const helmet = require("helmet");
+// const xss = require("xss-clean");
 const rateLimit = require("express-rate-limit");
 
 const express = require("express");
@@ -33,10 +33,6 @@ app.use(
 );
 
 app.use(express.json());
-
-app.use("/", (req, res) => {
-  res.send("jobs-api");
-});
 
 // extra packages
 
